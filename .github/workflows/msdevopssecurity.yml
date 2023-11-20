@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  security-events: write # This is required to upload SARIF files
+  
 jobs:
   sample:
     name: Microsoft Security DevOps Analysis
