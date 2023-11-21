@@ -31,4 +31,4 @@ function Get-ProcessById
 Get-ProcessById "$pid; Write-Host 'pwnd!'"
 
 
-$token1 = "ghp_1dtq12"
+$token1 = ghp_1dtq1hyuftdcujojuytrddcfvg
