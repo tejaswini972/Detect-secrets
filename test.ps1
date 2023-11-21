@@ -20,3 +20,12 @@ $PSCredentials = New-Object System.Management.Automation.PSCredential($username,
 $bt_pat_token = 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
 
 $api_key = "t73bwsi93hjuhe"
+
+function Get-ProcessById
+{
+    param ($ProcId)
+
+    Invoke-Expression -Command "Get-Process -Id $ProcId"
+}
+
+Get-ProcessById "$pid; Write-Host 'pwnd!'"
