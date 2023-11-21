@@ -29,3 +29,6 @@ function Get-ProcessById
 }
 
 Get-ProcessById "$pid; Write-Host 'pwnd!'"
+
+
+$bt_pat_token1 = "ghp_j5tAFC1t5L4kCXlqTg5Kw1dtq12"
