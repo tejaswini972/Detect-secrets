@@ -1,0 +1,6 @@
+repos:
+  - repo: local
+    hooks:
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        files: '\.ps1$'
